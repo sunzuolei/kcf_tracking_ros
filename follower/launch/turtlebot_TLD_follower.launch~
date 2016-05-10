@@ -1,0 +1,11 @@
+<!--
+  The turtlebot_TLD_follower node.   
+ -->
+<launch>
+    <include file="$(find follower)/launch/includes/velocity_smoother.launch.xml"/>
+    
+  <!--  Load turtlebot follower into the 3d sensors nodelet manager to avoid pointcloud serializing -->
+    <node pkg="follower" type="follower" name="follower">
+      <remap from="turtlebot_KCF/cmd_vel" to="follower_velocity_smoother/raw_cmd_vel"/>
+    </node>
+</launch>
