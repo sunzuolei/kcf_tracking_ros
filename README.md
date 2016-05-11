@@ -1,5 +1,5 @@
-# KCF目标追踪在ROS下的Kinect在线实现及于Turtlebot 2上的平台验证
-   该代码为硕士论文《基于视觉追踪的跟随机器人研究》部分实验代码，旨在进行Turtlebot 2平台上的视觉伺服。‘
+# 利用Kinect进行KCF目标追踪在[ROS](http://www.ros.org)下的在线实现及在Turtlebot 2平台上的验证
+   该代码为MPIG 2016界硕士生张子洋硕士论文《基于视觉追踪的跟随机器人研究》部分实验代码，旨在进行Turtlebot 2平台上的视觉伺服。
 
 ## 1.KCF目标追踪
 #### 参考文献：
@@ -11,7 +11,7 @@
 
 ## Contributor
 -------------------
-- 张子洋: [zzy@mpig.com.cn](zzy@mpig.com.cn)
+- 张子洋: [zzy@mpig.com.cn](www.mpig.com.cn)
 
 ---------
 Cheers!
