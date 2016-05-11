@@ -5,7 +5,7 @@
 #### 参考文献：
 * HENRIQUES J F, CASEIRO R, MARTINS P, et al.. High-speed tracking with kernelized correlation filters [J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2015, 37(3): 583-596.
 * BOLME D S, BEVERIDGE J R, DRAPER B A, et al.. Visual object tracking using adaptive correlation filters[C]. 23rd IEEE Conference on Computer Vision and Pattern Recognition(CVPR), 2010, 13-18.
-* 本项目中使用了原作者的开源代码 [Klaus Haag](https://github.com/klahaag/cf_tracking). 十分感谢！
+* 本项目中使用了原作者[Klaus Haag](https://github.com/klahaag/cf_tracking)的开源代码 . 十分感谢！
 
 ## 2.双轮差速控制
 #### 通过RGB图像目标追踪获取的目标位置与Depth图像获取的目标距离对Turtlebot进行伺服控制。
